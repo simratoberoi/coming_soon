@@ -14,11 +14,14 @@ const Footer = () => {
           <img className="flogo" src={logo} alt="Logo" />
         </div>
         <div className="footer-contact">
-          <p>Email - raasta@gmail.com</p>
-          <p>Phone No. - 28786377358</p>
+          <p>Email - reach.raasta@gmail.com</p>
+          <p>Phone No. - +91 86989 28119</p>
         </div>
         <div className="footer-social">
-          <a href="#" aria-label="Instagram">
+          <a
+            href="https://www.instagram.com/raasta.ind/"
+            aria-label="Instagram"
+          >
             <FontAwesomeIcon icon={faInstagram} />
           </a>
           <a href="#" aria-label="Facebook">
