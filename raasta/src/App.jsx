@@ -1,9 +1,16 @@
-import { useState } from 'react'
-import './App.css'
-import Img_grid from './images.jsx'
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
-function App() {
-  <Img_grid> </Img_grid>
+export default function App() {
+  return (
+    <div>
+      <Navbar />
+      <Hero />
+      <Gallery />
+      <Footer/>
+    </div>
+  );
 }
-
-export default App
